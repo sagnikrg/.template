@@ -10,13 +10,13 @@
     "**/*.xml": true,
     "**/*.bbl": true,
     "**/*.toc": true,
-    //"**/*.bat": true,
+    "**/*.bat": true,
 
     // Hide everything inside tex/src/header/ (but keep folder visible)
     "tex/.src/header/**": true,
 
     // Hide a specific script from workspace root
-    //"gitpush.bat": true,
+    "gitpush.bat": true,
     ".gitignore": true,
     ".gitattributes": true,
     // Hide the .git and .vscode folders themselves
