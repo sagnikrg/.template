@@ -4,6 +4,7 @@ easy to start template repo gathering all the efforts and scripts, with the atte
 
 # Sounce (.src)
 
+- **header:** contains headers for tex
 - **.bib/**
     - **bib.tex:** this is the central tex file to manage inclusion/exclusion of all .bib files (normally I split them per topic/authors, this practice is better than using one humongous refs.bib as it decreases biber runtime, and it makes it easier to reuse .bib files for later projects)   
 
