@@ -1,0 +1,208 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Khemani2021DTCinNISQ}{article}{}
+      \name{author}{5}{}{%
+        {{hash=38a4889e9a869be668dfd767a458c3a2}{%
+           family={Ippoliti},
+           familyi={I\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=399f6f0649872eb96c7b5d2253ac1654}{%
+           family={Kechedzhi},
+           familyi={K\bibinitperiod},
+           given={Kostyantyn},
+           giveni={K\bibinitperiod}}}%
+        {{hash=fa20764593b20f64ced4f0358080adf2}{%
+           family={Moessner},
+           familyi={M\bibinitperiod},
+           given={Roderich},
+           giveni={R\bibinitperiod}}}%
+        {{hash=82e7b227b0d96b899d2457bd48b6539a}{%
+           family={Sondhi},
+           familyi={S\bibinitperiod},
+           given={S.L.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fd65a98b236f147c2a715b0fef931c7d}{%
+           family={Khemani},
+           familyi={K\bibinitperiod},
+           given={Vedika},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{0f1199d05daf5d58cb94e9a9db32c3a0}
+      \strng{fullhash}{62d758f74b7859cf1811bdbcec5dc2ab}
+      \strng{bibnamehash}{62d758f74b7859cf1811bdbcec5dc2ab}
+      \strng{authorbibnamehash}{62d758f74b7859cf1811bdbcec5dc2ab}
+      \strng{authornamehash}{0f1199d05daf5d58cb94e9a9db32c3a0}
+      \strng{authorfullhash}{62d758f74b7859cf1811bdbcec5dc2ab}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{3}
+      \field{journaltitle}{PRX Quantum}
+      \field{month}{9}
+      \field{title}{Many-Body Physics in the NISQ Era: Quantum Programming a Discrete Time Crystal}
+      \field{volume}{2}
+      \field{year}{2021}
+      \field{pages}{030346}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PRXQuantum.2.030346
+      \endverb
+    \endentry
+    \entry{ippolitti2022time}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=9b445b45607e1e8e0672105779ea626b}{%
+           family={Mi},
+           familyi={M\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=38a4889e9a869be668dfd767a458c3a2}{%
+           family={Ippoliti},
+           familyi={I\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d7e98df2b678f196d4696b116fb5edb6}{%
+           family={Quintana},
+           familyi={Q\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=55f25b46e3702b1ab637435a5ae82257}{%
+           family={Greene},
+           familyi={G\bibinitperiod},
+           given={Ami},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1fac7e902845b1c2d0fd9ae4a0d00cc7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Zijun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=6f1578a70371072a8873b4d5fbbc1b4d}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a0b41f4400dc855d7426a5f72cadaa6c}{%
+           family={Arute},
+           familyi={A\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0a2abe43325e0dd3690ccc47bfa6c6b7}{%
+           family={Arya},
+           familyi={A\bibinitperiod},
+           given={Kunal},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b3f23b43c851c8ab4d1245e3a79c241d}{%
+           family={Atalaya},
+           familyi={A\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7bb1dcf8a93d1ecc6f9531ece93ef1fa}{%
+           family={Babbush},
+           familyi={B\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group UK London}%
+      }
+      \strng{namehash}{a9b43d9c44082411bf227837ddc94633}
+      \strng{fullhash}{af8008788c38cd9b2346f8eb78bf75e5}
+      \strng{bibnamehash}{af8008788c38cd9b2346f8eb78bf75e5}
+      \strng{authorbibnamehash}{af8008788c38cd9b2346f8eb78bf75e5}
+      \strng{authornamehash}{a9b43d9c44082411bf227837ddc94633}
+      \strng{authorfullhash}{af8008788c38cd9b2346f8eb78bf75e5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7894}
+      \field{title}{Time-crystalline eigenstate order on a quantum processor}
+      \field{volume}{601}
+      \field{year}{2022}
+      \field{pages}{531\bibrangedash 536}
+      \range{pages}{6}
+    \endentry
+    \entry{Khemani2015phasestructre}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fd65a98b236f147c2a715b0fef931c7d}{%
+           family={Khemani},
+           familyi={K\bibinitperiod},
+           given={Vedika},
+           giveni={V\bibinitperiod}}}%
+        {{hash=49809d9027ff7e597da6bbe217c284c9}{%
+           family={Lazarides},
+           familyi={L\bibinitperiod},
+           given={Achilleas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fa20764593b20f64ced4f0358080adf2}{%
+           family={Moessner},
+           familyi={M\bibinitperiod},
+           given={Roderich},
+           giveni={R\bibinitperiod}}}%
+        {{hash=82e7b227b0d96b899d2457bd48b6539a}{%
+           family={Sondhi},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{eca776ca0f39b5df59831b4a952ff86e}
+      \strng{fullhash}{3910f19d5290d3c99a983283073127ec}
+      \strng{bibnamehash}{3910f19d5290d3c99a983283073127ec}
+      \strng{authorbibnamehash}{3910f19d5290d3c99a983283073127ec}
+      \strng{authornamehash}{eca776ca0f39b5df59831b4a952ff86e}
+      \strng{authorfullhash}{3910f19d5290d3c99a983283073127ec}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{25}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{6}
+      \field{title}{Phase Structure of Driven Quantum Systems}
+      \field{volume}{116}
+      \field{year}{2016}
+      \field{pages}{250401}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.116.250401
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.116.250401
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.116.250401
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
