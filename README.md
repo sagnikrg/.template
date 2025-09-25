@@ -1,1 +1,3 @@
-# template
+# .template.git
+
+easy to start template repo gathering all the efforts and scripts, with the attempt of standardising ML4Q Research Data Management guidelines...
