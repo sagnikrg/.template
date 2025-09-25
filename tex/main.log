@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.4)  25 SEP 2025 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.4)  25 SEP 2025 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -920,7 +920,14 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 (./.src/.bib/.bib.tex)
 \@quotelevel=\count453
 \@quotereset=\count454
- (./main.aux)
+ (./main.aux
+
+LaTeX Warning: Label `fig:subim2a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:subim2a' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
@@ -943,8 +950,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
 
-
-(c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
@@ -1033,9 +1039,8 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-
-No file main.bbl.
+Package biblatex Info: ... file 'main.bbl' found.
+ (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 73.
 Package biblatex Info: Reference segment=0 on input line 73.
 \c@defn=\count462
@@ -1048,101 +1053,52 @@ Package biblatex Info: Reference segment=0 on input line 73.
 \c@appr=\count469
 \c@claim=\count470
 \c@notes=\count471
-<./.src/header/UNI_Bonn_Logo_Standard_RZ_Office.jpg, id=7, 3898.565pt x 1506.62
-875pt>
+<./.src/header/UNI_Bonn_Logo_Standard_RZ_Office.jpg, id=15, 3898.565pt x 1506.6
+2875pt>
 File: ./.src/header/UNI_Bonn_Logo_Standard_RZ_Office.jpg Graphic file (type jpg
 )
 <use ./.src/header/UNI_Bonn_Logo_Standard_RZ_Office.jpg>
 Package pdftex.def Info: ./.src/header/UNI_Bonn_Logo_Standard_RZ_Office.jpg  us
 ed on input line 89.
 (pdftex.def)             Requested size: 116.9519pt x 45.1969pt.
+
 (./DTC/model.tex
-
-LaTeX Warning: Citation 'Khemani2021DTCinNISQ' on page 1 undefined on input lin
-e 3.
-
-
-LaTeX Warning: Citation 'ippolitti2022time' on page 1 undefined on input line 3
-.
-
-
-Overfull \hbox (40.41843pt too wide) in paragraph at lines 3--4
-[]\OT1/cmr/m/n/10 The model we will be con-cerned with is the brick-wall cir-cu
-it from Ipolitti et al [[],
- []
-
-<./.src/images/DTC_circuit.png, id=8, 542.9886pt x 306.4248pt>
+<./.src/images/DTC_circuit.png, id=18, 542.9886pt x 306.4248pt>
 File: ./.src/images/DTC_circuit.png Graphic file (type png)
 <use ./.src/images/DTC_circuit.png>
 Package pdftex.def Info: ./.src/images/DTC_circuit.png  used on input line 20.
 (pdftex.def)             Requested size: 238.70982pt x 134.71043pt.
-<./.src/images/Phase_diagram_Labeled.png, id=10, 738.3585pt x 553.8291pt>
+<./.src/images/Phase_diagram_Labeled.png, id=20, 738.3585pt x 553.8291pt>
 File: ./.src/images/Phase_diagram_Labeled.png Graphic file (type png)
 <use ./.src/images/Phase_diagram_Labeled.png>
 Package pdftex.def Info: ./.src/images/Phase_diagram_Labeled.png  used on input
  line 24.
 (pdftex.def)             Requested size: 157.79196pt x 118.35262pt.
-
-LaTeX Warning: Citation 'Khemani2021DTCinNISQ' on page 1 undefined on input lin
-e 27.
-
-
-LaTeX Warning: Citation 'Khemani2021DTCinNISQ' on page 1 undefined on input lin
-e 27.
-
-
-LaTeX Warning: Citation 'Khemani2015phasestructre' on page 1 undefined on input
- line 30.
-
-
-Overfull \hbox (54.91444pt too wide) in paragraph at lines 30--31
-\OT1/cmr/m/n/10 sa-tion and thereby to pre-vent the sys-tem from heat-ing up to
- triv-i-al-ity from the kicks [[]].
- []
-
-[1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./.src/header
-/UNI_Bonn_Logo_Standard_RZ_Office.jpg> <./.src/images/DTC_circuit.png> <./.src/
-images/Phase_diagram_Labeled.png>])
-
-LaTeX Warning: Empty bibliography on input line 129.
-
-[2] (./main.aux)
+ [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./.src/heade
+r/UNI_Bonn_Logo_Standard_RZ_Office.jpg> <./.src/images/DTC_circuit.png> <./.src
+/images/Phase_diagram_Labeled.png>]) [2] (./main.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-12-11>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  16A9CB24042464375B6A2A8B655BB406;86.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 43D372BCF05A657EB3D2D44F27CC6E70;180.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31320 strings out of 474175
- 580391 string characters out of 5749699
- 1941460 words of memory out of 5000000
- 53009 multiletter control sequences out of 15000+600000
- 569327 words of font info for 77 fonts, out of 8000000 for 9000
+ 31369 strings out of 474175
+ 581646 string characters out of 5749699
+ 1940460 words of memory out of 5000000
+ 53051 multiletter control sequences out of 15000+600000
+ 569495 words of font info for 78 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 84i,17n,93p,786b,1507s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,93p,786b,1521s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
 live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2023/texmf-d
@@ -1155,11 +1111,12 @@ b><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texli
 ve/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2023/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (2 pages, 723466 bytes).
+/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmtt10.pfb>
+Output written on main.pdf (2 pages, 738158 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 44 words of extra memory for PDF output out of 10000 (max. 10000000)
 
