@@ -32,7 +32,7 @@
 
 !code/scripts/*.ipynb
 !code/test/*.ipynb
-
+!.bat/headersync.log
 
 # ------data------
 !data/processed/*
@@ -42,9 +42,7 @@
 
 !tex/.src/images/*
 !tex/plots/*
-
-
-
+!tex/notes/**/*.png
 
 
 

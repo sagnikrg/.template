@@ -1,0 +1,93 @@
+
+
+
+--------------------------------------------------------------------------------
+
+LOG FILE FOR HEADER SYNC RUNS;
+
+--------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------
+- Initial Creation Note : (METADATA)
+-
+- On 03-11-2025  finally the long term dream of automating hadersync was created.
+- With growing number of functions and repos it was getting extremly difficult to keep changes in 
+- each of these repos under manual track. Hence there was a long term plan to have create a single
+- .header repo that contains all the header files and have these refletcted on 
+- all other repos as needed.
+- 
+-
+- That master .header repo is now available at : https://github.com/sagnikrg/.header
+-
+- While modifying the old headersync.bat script to make it as automated as possible, we switched to using robocopy instead of xcopy.
+- to mirror directories and delete files that are not present in source. It also samples the repo names directly now, so that this script
+- can be made part of .template and be used exactly as intended without any manual modifications.
+-
+-
+- While working on this I also realised it can also be used to automatically print logs in journal style, saving us from the trouble of manually udating wiki!
+-
+-
+- This file is the result of that effort and henceforth will contain all the logs of
+- ALL updates in the https://github.com/sagnikrg/.header repo! :D
+-
+-
+-
+-
+-
+- PS: This new script will also be modded soon to create the new bibsync.bat to sync the splitted .bib files from notes/tex/.src/.bib
+- to completely automate the two most time consuming redundant tasks.
+-
+-
+- You are Welcome ! :D  
+-
+- Sagnik (sagnikrg)
+--------------------------------------------------------------------------------
+
+
+
+
+==== [03-11-2025 11:27:29.22] Header mirror run ====
+Repo        : 
+Source      : C:\Users\Ritam\OneDrive\Documents\Codespaces\.header\.header\.src
+Destination : C:\Users\Ritam\OneDrive\Documents\Codespaces\.template\code\.header\.src
+Commit Msg  : pulled .header to .template 
+Commit Hash : 
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+  Started : 03 November 2025 11:27:29
+   Source : .header\.src\
+     Dest : \code\.header\.src\
+    Files : *.*
+	    
+  Options : *.* /FFT /TEE /S /E /DCOPY:T /COPY:DAT /PURGE /MIR /XJ /MT:8 /R:1 /W:1 
+------------------------------------------------------------------------------
+	  *EXTRA File 		     795		  *EXTRA File 		    1456	\code\.header\.src\info_lattice\draw_infolattice.py\code\.header\.src\functions\eigenstatistics.jl
+	    New File  		       0	.header\.src\circuit\time_crystal_temp_noise.jl100%  
+	    New File  		      66	.header\.src\eigen_statistics\cumulative_density.jl100%  
+	    New File  		     195	.header\.src\eigen_statistics\eigen_statistics.jl100%  
+	    New File  		    1585	.header\.src\eigen_statistics\level_spacing.jl100%  
+	    New File  		       0	.header\.src\eigen_statistics\power_spectral_density.jl100%  
+	    New File  		    1149	.header\.src\plotmods\finite-size-eigstat.jl100%  
+	    New File  		    3511	.header\.src\plotmods\heatmap.jl100%  
+	    New File  		     229	.header\.src\eigen_statistics\resampling\resampler.jl100%  
+------------------------------------------------------------------------------
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        12        12        10         0         0         0
+   Files :        35         8        27         0         0         2
+   Bytes :    60.4 k     6.5 k    53.9 k         0         0     2.1 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Speed :            5,61,250 Bytes/sec.
+   Speed :              32.115 MegaBytes/min.
+   Ended : 03 November 2025 11:27:29
+
+==== End of run ====
+
+
+
+
+
+
+
