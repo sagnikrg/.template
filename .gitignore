@@ -28,13 +28,21 @@
 
 ##----Still Backing UP------
 
+
+# --- log files for headersync and bibsync -----
+
+!/.bat/bibsync.log
+!.bat/headersync.log
+
+
 # --- test codes and plot scripts------
 
 !code/scripts/*.ipynb
 !code/test/*.ipynb
-!.bat/headersync.log
 
-# ------data------
+
+
+# ---processed data for plotting------
 !data/processed/*
 
 
