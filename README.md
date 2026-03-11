@@ -1,6 +1,14 @@
 # .template.git
 
-easy to start template repo gathering all the efforts and scripts, with the attempt of standardising ML4Q Research Data Management guidelines...
+Currently This is actually a .template repo w.r.t. anything mbl_dtc or related many body projects; 
+For a blank .template i.e with the structure but not these headers use: https://github.com/ML4Q/.template
+
+# Caution:
+
+Always run headersync and bibsync prior to cloning.. 
+
+Question to Ponder: should these syncs be automated (makes life simple) or kept manual (wayy too many git commits)..
+Also: Ideally there should be an automated set-up scripts...to do all this already... lets see
 
 # Sounce (.src)
 
